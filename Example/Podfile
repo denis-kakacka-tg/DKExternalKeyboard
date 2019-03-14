@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DKExternalKeyboard_Example' do
+  pod 'DKExternalKeyboard', :path => '../'
+
+  target 'DKExternalKeyboard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
