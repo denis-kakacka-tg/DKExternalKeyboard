@@ -1,0 +1,6 @@
+framework module DKExternalKeyboard {
+  umbrella header "DKExternalKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_DKExternalKeyboard_Tests {
+  umbrella header "Pods-DKExternalKeyboard_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

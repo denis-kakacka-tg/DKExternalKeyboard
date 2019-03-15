@@ -7,18 +7,37 @@
 //
 
 import UIKit
+import DKExternalKeyboard
 
 class ViewController: UIViewController {
+    @IBOutlet weak var textField: UITextField!
+    
+    private lazy var keyboard: DKExternalKeyboard = {
+        let keyboard: DKExternalKeyboard = DKExternalKeyboard.loadFromNib()
+        keyboard.setDelegate(self)
+    
+        return keyboard
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        textField.delegate = self
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
+extension ViewController: DKExternalKeyboardDelegate {
+    func didTapDone(query: String?) {
+        guard let query = query else { return }
+        print(query)
+        
+        keyboard.removeFromSuperview()
+        textField.resignFirstResponder()
+    }
+}
+
+extension ViewController: UITextFieldDelegate {
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        keyboard.show(for: textField, on: self)
+    }
+}
