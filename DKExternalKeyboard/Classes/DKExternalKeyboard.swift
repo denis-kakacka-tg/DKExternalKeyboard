@@ -11,14 +11,24 @@ import UIKit
     func didTapDone(query: String?)
 }
 
-open class DKExternalKeyboard: UIView {
+@objcMembers public class DKExternalKeyboard: UIView {
     private weak var delegate: DKExternalKeyboardDelegate?
     private weak var textField: UITextField?
+    private var isCapitalized = false
+    
+    private init() {
+        super.init(frame: .zero)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+
 }
 
 // MARK: - IBActions
 extension DKExternalKeyboard {
-    @IBAction func keyTapped(_ sender: UIButton) {
+    @IBAction private func keyTapped(_ sender: UIButton) {
         guard let character = sender.titleLabel?.text else { return }
         guard let textField = textField, let actualText = textField.text else {
             assertionFailure("TEXTFIELD NOT CONFIGURED")
@@ -28,7 +38,7 @@ extension DKExternalKeyboard {
         textField.text = actualText + character
     }
     
-    @IBAction func deleteTapped(_ sender: UIButton) {
+    @IBAction private func deleteTapped(_ sender: UIButton) {
         guard let textField = textField, let actualText = textField.text else {
             assertionFailure("TEXTFIELD NOT CONFIGURED")
             return
@@ -37,7 +47,7 @@ extension DKExternalKeyboard {
         if !actualText.isEmpty { textField.text?.removeLast() }
     }
     
-    @IBAction func doneTapped(_ sender: UIButton) {
+    @IBAction private func doneTapped(_ sender: UIButton) {
         guard let delegate = delegate else {
             assertionFailure("DELEGATE NOT CONFIGURED")
             return
@@ -46,13 +56,27 @@ extension DKExternalKeyboard {
         delegate.didTapDone(query: textField?.text)
     }
     
-    @IBAction func spaceTapped(_ sender: UIButton) {
+    @IBAction private func spaceTapped(_ sender: UIButton) {
         guard let textField = textField, let actualText = textField.text else {
             assertionFailure("TEXTFIELD NOT CONFIGURED")
             return
         }
         
         textField.text = actualText + " "
+    }
+    
+    @IBAction private func shiftTapped(_ sender: UIButton) {
+        isCapitalized = !isCapitalized
+        
+        subviews
+            .flatMap { $0.subviews }
+            .flatMap { $0.subviews }
+            .filter { $0.tag == 1 }
+            .map { $0 as! UIButton }
+            .forEach { 
+                let keyCharacter = isCapitalized ? $0.titleLabel?.text?.capitalized : $0.titleLabel?.text?.lowercased()
+                $0.setTitle(keyCharacter, for: .normal)
+        }
     }
 }
 

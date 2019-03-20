@@ -12,11 +12,11 @@ import DKExternalKeyboard
 class ViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     
-    private lazy var keyboard: DKExternalKeyboard = {
-        let keyboard: DKExternalKeyboard = DKExternalKeyboard.loadFromNib()
-        keyboard.setDelegate(self)
-    
-        return keyboard
+    private lazy var keyboardContainer: DKExternalKeyboardContainer = {
+        let keyboardContainer = DKExternalKeyboardContainer()
+        keyboardContainer.keyboard.setDelegate(self)
+                        
+        return keyboardContainer
     }()
 
     override func viewDidLoad() {
@@ -31,13 +31,20 @@ extension ViewController: DKExternalKeyboardDelegate {
         guard let query = query else { return }
         print(query)
         
-        keyboard.removeFromSuperview()
+        keyboardContainer.keyboard.removeFromSuperview()
         textField.resignFirstResponder()
     }
 }
 
 extension ViewController: UITextFieldDelegate {
     func textFieldDidBeginEditing(_ textField: UITextField) {
-        keyboard.show(for: textField, on: self)
+        keyboardContainer.keyboard.show(for: textField, on: self)
+    }
+    
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        let vieww = UIView(frame: .zero)
+        textField.inputView = vieww
+        
+        return true
     }
 }

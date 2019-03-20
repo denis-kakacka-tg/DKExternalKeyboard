@@ -7,35 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		021D4440878090B010E85CF29B18C814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		0D950394AAD64B8C3B61A4D8E4E23080 /* DKExternalKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEAADF04DD810E1CE4957E4E69F7C5E /* DKExternalKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1266298275F3B1A56C5622B9032D56EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		1C97282E26DF9DA2335C615A07A1329F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2A99C8DFD811737E5E823EA5B3D183AA /* DKExternalKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98C0172ED050AB39D8417FCCBDE8C677 /* DKExternalKeyboard.xib */; };
+		4FCF06B6BCF701FE7D1C32782B937A3F /* DKExternalKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91C0D8F93A3C96BA78757B8558C2AC3 /* DKExternalKeyboard.swift */; };
 		63210A28EACF2B59B252A1734FF52406 /* Pods-DKExternalKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818B544E9CCF88A4159347145D76B896 /* Pods-DKExternalKeyboard_Tests-dummy.m */; };
 		63AB3298C47FB18983D4ECF6B7F27FBA /* Pods-DKExternalKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F50DB0790E2DCDE250AEDF98D0DC5D7A /* Pods-DKExternalKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64366DCF4E35FFA066D199EEDD2AF64A /* DKExternalKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DF982063270F38DDA2B99864E4096 /* DKExternalKeyboard.xib */; };
+		7507BB2BDB73A783A6CC4EF61916B3C5 /* DKExternalKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA71278F5A8BEA25F8962F0A27313CCA /* DKExternalKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		761E8DF855F1871A0A057A39BFCE0B5C /* Pods-DKExternalKeyboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56602540312D4F9693EC1F5F0F72D8CE /* Pods-DKExternalKeyboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C0EA069B4BB4D8CE11C580C28B50006 /* UIView+LoadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400ADEDB819419CEBF46D05837124305 /* UIView+LoadNib.swift */; };
-		9DD774B866A6D8A21D8BCF2B49EE1EAA /* DKExternalKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC30C4011D288D549A1D9496C6A62453 /* DKExternalKeyboard.bundle */; };
-		CE4B81A9AE8084A0078BFA82E16C9F03 /* DKExternalKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7AC8D1A885748AF659AA6A424C995A6 /* DKExternalKeyboard-dummy.m */; };
-		DBB8618ED7A43922EB76784E022025B3 /* DKExternalKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EC80F2A6F10E43C0A661862174C42E /* DKExternalKeyboard.swift */; };
+		8182271AC6F4A1B3946B021FB858883D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		83B4C542C7EEE0907CC985733FC9C7D3 /* DKExternalKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B2C0F81FD7AB8EFDF5A141D17EA052 /* DKExternalKeyboard-dummy.m */; };
+		C1EA02A7224295C5006BBE1D /* DKExternalKeyboardContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA02A6224295C5006BBE1D /* DKExternalKeyboardContainer.swift */; };
+		D6FDC27F25C0888F85479747241381AF /* DKExternalKeyboardOld.xib in Resources */ = {isa = PBXBuildFile; fileRef = 751D453B765986297268074D4125BD6A /* DKExternalKeyboardOld.xib */; };
+		DB20FBB03DF6230554FC3DD97D245020 /* UIView+LoadNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AE95D245983D070FDD90A37A0AB2D1 /* UIView+LoadNib.swift */; };
 		E2295963F8DC5A5FAB5F77D00140B572 /* Pods-DKExternalKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B4826485D90C030C4F1821EA4A19E1 /* Pods-DKExternalKeyboard_Example-dummy.m */; };
+		FE404A559B0022C3C07A1237E1FD4A87 /* DKExternalKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC30C4011D288D549A1D9496C6A62453 /* DKExternalKeyboard.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		12309BBDF2996BEEA76ADFE50C201E67 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 353F967DAFFE4B48956CB7CEC8037075;
-			remoteInfo = "DKExternalKeyboard-DKExternalKeyboard";
-		};
 		4E0F64DD456DAC779079D74A10EE1B88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4A21905BF31EDEE8AAC97810116223E3;
+			remoteGlobalIDString = 8543B9B62E6556CCD23B18CEEDA610B9;
 			remoteInfo = DKExternalKeyboard;
+		};
+		8AF9E61EE7BB5F29F952E8C07A303A69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 859303741AC0BE4598B1EE82B236A009;
+			remoteInfo = "DKExternalKeyboard-DKExternalKeyboard";
 		};
 		CF26470027C0A0E0F45B3831BE490B0D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -47,43 +49,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0023C9D51B12DA872D06CCFDB61D38CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0639DA3B51AE1BDFCBE86C6C7A679515 /* Pods-DKExternalKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKExternalKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0CEAADF04DD810E1CE4957E4E69F7C5E /* DKExternalKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKExternalKeyboard-umbrella.h"; sourceTree = "<group>"; };
-		0DDD6E0EAE40B4F5CA93258B29C6EF22 /* DKExternalKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DKExternalKeyboard.modulemap; sourceTree = "<group>"; };
 		283CF12FFC3EA5E6BFB78161D4294B75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C6F5574DB7B6FAEC77ED8E86E1C036F /* Pods-DKExternalKeyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKExternalKeyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		30EC80F2A6F10E43C0A661862174C42E /* DKExternalKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKExternalKeyboard.swift; path = DKExternalKeyboard/Classes/DKExternalKeyboard.swift; sourceTree = "<group>"; };
+		31FAC02BD38F1B859408C07CF34CD649 /* DKExternalKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DKExternalKeyboard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		33379262D0978DF08486835C49655B95 /* Pods-DKExternalKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKExternalKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3AB00319C4A203AAAA80CA601480C342 /* Pods-DKExternalKeyboard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKExternalKeyboard_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3D8FA5D2EC27A898F9A239957B51B10B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		400ADEDB819419CEBF46D05837124305 /* UIView+LoadNib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LoadNib.swift"; path = "DKExternalKeyboard/Classes/UIView+LoadNib.swift"; sourceTree = "<group>"; };
-		462C5C45E81E8D575DBF5100A1E78A9F /* DKExternalKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DKExternalKeyboard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4976763B77CE87E295ABDBCD46F51EBD /* Pods_DKExternalKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKExternalKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FDA240AF45869CED4451CC2418B9743 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BCAA9EEAD240CA68CCF75590E7275AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		56602540312D4F9693EC1F5F0F72D8CE /* Pods-DKExternalKeyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKExternalKeyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
-		57DAB920078F691B88B24CA2141FCBF2 /* DKExternalKeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKExternalKeyboard.xcconfig; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6758A6E92089BD7FB1CF4B7526C8451E /* Pods-DKExternalKeyboard_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKExternalKeyboard_Example-resources.sh"; sourceTree = "<group>"; };
+		6759E41B308669C8DAC6486376C17400 /* DKExternalKeyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKExternalKeyboard.xcconfig; sourceTree = "<group>"; };
+		676F8E3BD8358F006278B4E4EE79C4CA /* ResourceBundle-DKExternalKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DKExternalKeyboard-Info.plist"; sourceTree = "<group>"; };
 		68B4826485D90C030C4F1821EA4A19E1 /* Pods-DKExternalKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKExternalKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
-		7A6FFE9297890523D432466956244624 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		70AE95D245983D070FDD90A37A0AB2D1 /* UIView+LoadNib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LoadNib.swift"; path = "DKExternalKeyboard/Classes/UIView+LoadNib.swift"; sourceTree = "<group>"; };
+		751D453B765986297268074D4125BD6A /* DKExternalKeyboardOld.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DKExternalKeyboardOld.xib; path = DKExternalKeyboard/Assets/DKExternalKeyboardOld.xib; sourceTree = "<group>"; };
 		818B544E9CCF88A4159347145D76B896 /* Pods-DKExternalKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKExternalKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
-		8B4DF982063270F38DDA2B99864E4096 /* DKExternalKeyboard.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DKExternalKeyboard.xib; path = DKExternalKeyboard/Assets/DKExternalKeyboard.xib; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95FFDCEA06F97C09B520F5BCBBFFCD08 /* ResourceBundle-DKExternalKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DKExternalKeyboard-Info.plist"; sourceTree = "<group>"; };
+		98C0172ED050AB39D8417FCCBDE8C677 /* DKExternalKeyboard.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DKExternalKeyboard.xib; path = DKExternalKeyboard/Assets/DKExternalKeyboard.xib; sourceTree = "<group>"; };
 		9B9EB8697F489F0082E24C47F87843C6 /* Pods-DKExternalKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKExternalKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9E4E51A7455388AD7259662C9AFE52BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20A752A75A07BF763910F663058BF97 /* Pods-DKExternalKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKExternalKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A2951437722520C81A51F58356C48FC5 /* Pods-DKExternalKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKExternalKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A31CC4685B9F72D550C082698BDDC3E5 /* Pods-DKExternalKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKExternalKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A7AC8D1A885748AF659AA6A424C995A6 /* DKExternalKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKExternalKeyboard-dummy.m"; sourceTree = "<group>"; };
+		AA71278F5A8BEA25F8962F0A27313CCA /* DKExternalKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKExternalKeyboard-umbrella.h"; sourceTree = "<group>"; };
 		AC30C4011D288D549A1D9496C6A62453 /* DKExternalKeyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKExternalKeyboard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F65AA86E5A3CFD22C6F18F4AE32127 /* DKExternalKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKExternalKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB69E880461087EFBBE0D94B649B0B02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C03F04744F7DF7B0E3E835D873248B8C /* Pods_DKExternalKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKExternalKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1EA02A6224295C5006BBE1D /* DKExternalKeyboardContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DKExternalKeyboardContainer.swift; path = DKExternalKeyboard/Classes/DKExternalKeyboardContainer.swift; sourceTree = "<group>"; };
+		D7B2C0F81FD7AB8EFDF5A141D17EA052 /* DKExternalKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKExternalKeyboard-dummy.m"; sourceTree = "<group>"; };
 		E0B9607F1D49DACD5AC5FA29F209F1EE /* Pods-DKExternalKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKExternalKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E2B5211F556BB1D8626C7346006A2B35 /* DKExternalKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKExternalKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		E91C0D8F93A3C96BA78757B8558C2AC3 /* DKExternalKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKExternalKeyboard.swift; path = DKExternalKeyboard/Classes/DKExternalKeyboard.swift; sourceTree = "<group>"; };
 		E92B45B7ADBD67D71A6DAB056636DADE /* Pods-DKExternalKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DKExternalKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
+		EFAC1A9A8EB0DB1C3F687135A09C675A /* DKExternalKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKExternalKeyboard-prefix.pch"; sourceTree = "<group>"; };
 		F50DB0790E2DCDE250AEDF98D0DC5D7A /* Pods-DKExternalKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKExternalKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
 		F5EB78A0B34F5273BB590DB651F85C84 /* Pods-DKExternalKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKExternalKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7293FC592287A9F0148B2D0A6891F22 /* DKExternalKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DKExternalKeyboard.modulemap; sourceTree = "<group>"; };
 		FCA70E1939DFF9FD9FED3D6AF45FEADB /* Pods-DKExternalKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DKExternalKeyboard_Example.modulemap"; sourceTree = "<group>"; };
 		FD67D94B26DCAA079E41F3F04A8BDAA0 /* Pods-DKExternalKeyboard_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKExternalKeyboard_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,7 +101,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24E11BD0B40E0F55B38D72B155BF196F /* Frameworks */ = {
+		6E127AB4C8723D03A9DBA422DD26BB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8182271AC6F4A1B3946B021FB858883D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72977A5A93C85AB82C3ADEEDCC3C10A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -112,25 +124,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6A1A94D5987BCF7271E581F9AF113BD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				021D4440878090B010E85CF29B18C814 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B50F3343193CBA3F839C1B24CEDFF61 /* Pod */ = {
+		2DDE7CE9B184A2794F101F563B412329 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				462C5C45E81E8D575DBF5100A1E78A9F /* DKExternalKeyboard.podspec */,
-				7A6FFE9297890523D432466956244624 /* LICENSE */,
-				3D8FA5D2EC27A898F9A239957B51B10B /* README.md */,
+				70D2A28F2127CF929B717283AD641FF5 /* DKExternalKeyboard */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -139,6 +141,20 @@
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		70D2A28F2127CF929B717283AD641FF5 /* DKExternalKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				C1EA02A6224295C5006BBE1D /* DKExternalKeyboardContainer.swift */,
+				E91C0D8F93A3C96BA78757B8558C2AC3 /* DKExternalKeyboard.swift */,
+				70AE95D245983D070FDD90A37A0AB2D1 /* UIView+LoadNib.swift */,
+				BB5E29D7AF83023676BF1EDA8F8BEBB0 /* Pod */,
+				A21DE2FE04F0F69BCB8F76A46CF812EA /* Resources */,
+				DF9EC4A5CD4227DA0D7FDB29879E5BB5 /* Support Files */,
+			);
+			name = DKExternalKeyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		71073F6E5626286F8EDC91A58EA1AE37 /* Targets Support Files */ = {
@@ -154,32 +170,11 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				80D33F3570B9FCE9D2F88207A7A2EFB6 /* Development Pods */,
+				2DDE7CE9B184A2794F101F563B412329 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				C86A9862510BE877F5519C098CE8B326 /* Products */,
 				71073F6E5626286F8EDC91A58EA1AE37 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		80D33F3570B9FCE9D2F88207A7A2EFB6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				982369525E536F82BE8C5D2F0BC736DA /* DKExternalKeyboard */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		982369525E536F82BE8C5D2F0BC736DA /* DKExternalKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				30EC80F2A6F10E43C0A661862174C42E /* DKExternalKeyboard.swift */,
-				400ADEDB819419CEBF46D05837124305 /* UIView+LoadNib.swift */,
-				3B50F3343193CBA3F839C1B24CEDFF61 /* Pod */,
-				CAD10457BCF7D3BF2AEA65D83AF569E5 /* Resources */,
-				D89E5E2E8FFE400852FF844FD6A5596F /* Support Files */,
-			);
-			name = DKExternalKeyboard;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		9E24D0CB2B5A674657934E90545584DE /* Pods-DKExternalKeyboard_Tests */ = {
@@ -198,6 +193,25 @@
 			);
 			name = "Pods-DKExternalKeyboard_Tests";
 			path = "Target Support Files/Pods-DKExternalKeyboard_Tests";
+			sourceTree = "<group>";
+		};
+		A21DE2FE04F0F69BCB8F76A46CF812EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98C0172ED050AB39D8417FCCBDE8C677 /* DKExternalKeyboard.xib */,
+				751D453B765986297268074D4125BD6A /* DKExternalKeyboardOld.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BB5E29D7AF83023676BF1EDA8F8BEBB0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				31FAC02BD38F1B859408C07CF34CD649 /* DKExternalKeyboard.podspec */,
+				0023C9D51B12DA872D06CCFDB61D38CB /* LICENSE */,
+				4BCAA9EEAD240CA68CCF75590E7275AD /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -237,24 +251,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CAD10457BCF7D3BF2AEA65D83AF569E5 /* Resources */ = {
+		DF9EC4A5CD4227DA0D7FDB29879E5BB5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8B4DF982063270F38DDA2B99864E4096 /* DKExternalKeyboard.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		D89E5E2E8FFE400852FF844FD6A5596F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0DDD6E0EAE40B4F5CA93258B29C6EF22 /* DKExternalKeyboard.modulemap */,
-				57DAB920078F691B88B24CA2141FCBF2 /* DKExternalKeyboard.xcconfig */,
-				A7AC8D1A885748AF659AA6A424C995A6 /* DKExternalKeyboard-dummy.m */,
-				E2B5211F556BB1D8626C7346006A2B35 /* DKExternalKeyboard-prefix.pch */,
-				0CEAADF04DD810E1CE4957E4E69F7C5E /* DKExternalKeyboard-umbrella.h */,
-				4FDA240AF45869CED4451CC2418B9743 /* Info.plist */,
-				95FFDCEA06F97C09B520F5BCBBFFCD08 /* ResourceBundle-DKExternalKeyboard-Info.plist */,
+				F7293FC592287A9F0148B2D0A6891F22 /* DKExternalKeyboard.modulemap */,
+				6759E41B308669C8DAC6486376C17400 /* DKExternalKeyboard.xcconfig */,
+				D7B2C0F81FD7AB8EFDF5A141D17EA052 /* DKExternalKeyboard-dummy.m */,
+				EFAC1A9A8EB0DB1C3F687135A09C675A /* DKExternalKeyboard-prefix.pch */,
+				AA71278F5A8BEA25F8962F0A27313CCA /* DKExternalKeyboard-umbrella.h */,
+				BB69E880461087EFBBE0D94B649B0B02 /* Info.plist */,
+				676F8E3BD8358F006278B4E4EE79C4CA /* ResourceBundle-DKExternalKeyboard-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/DKExternalKeyboard";
@@ -263,19 +269,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4A525E4128FB655BD2FFB1D28439E1C8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D950394AAD64B8C3B61A4D8E4E23080 /* DKExternalKeyboard-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4B84FFA6B25DDCC23465295327F1EB28 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				63AB3298C47FB18983D4ECF6B7F27FBA /* Pods-DKExternalKeyboard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5AFC0FB9482AE7E24791E323B8A0ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7507BB2BDB73A783A6CC4EF61916B3C5 /* DKExternalKeyboard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,42 +296,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		353F967DAFFE4B48956CB7CEC8037075 /* DKExternalKeyboard-DKExternalKeyboard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0814FF7B8B928AC2BF63837BDD2D0F74 /* Build configuration list for PBXNativeTarget "DKExternalKeyboard-DKExternalKeyboard" */;
-			buildPhases = (
-				F179B92F7BE5D3AE875B446C8D800D91 /* Sources */,
-				24E11BD0B40E0F55B38D72B155BF196F /* Frameworks */,
-				2FAC0A7CB0C3C113CE2B1F5A5E85A0AA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DKExternalKeyboard-DKExternalKeyboard";
-			productName = "DKExternalKeyboard-DKExternalKeyboard";
-			productReference = AC30C4011D288D549A1D9496C6A62453 /* DKExternalKeyboard.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		4A21905BF31EDEE8AAC97810116223E3 /* DKExternalKeyboard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 921FFD31B0F8582E3A79DBB6FFFB8C92 /* Build configuration list for PBXNativeTarget "DKExternalKeyboard" */;
-			buildPhases = (
-				4A525E4128FB655BD2FFB1D28439E1C8 /* Headers */,
-				FF8A1E23805A98296F6C3F01237608C2 /* Sources */,
-				C6A1A94D5987BCF7271E581F9AF113BD /* Frameworks */,
-				6CE69A09E8399DD80FDE91CDD93F2082 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E214E851A56428D0BF0D16852C274D62 /* PBXTargetDependency */,
-			);
-			name = DKExternalKeyboard;
-			productName = DKExternalKeyboard;
-			productReference = B4F65AA86E5A3CFD22C6F18F4AE32127 /* DKExternalKeyboard.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		4DA437E7DAF0C88C9BD53A42D077C0FE /* Pods-DKExternalKeyboard_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A937F1202D3E99A739C38A0A9492D3ED /* Build configuration list for PBXNativeTarget "Pods-DKExternalKeyboard_Tests" */;
@@ -364,6 +334,42 @@
 			productReference = 4976763B77CE87E295ABDBCD46F51EBD /* Pods_DKExternalKeyboard_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		8543B9B62E6556CCD23B18CEEDA610B9 /* DKExternalKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 834B11DF21AFCD99CBDD696673A0B267 /* Build configuration list for PBXNativeTarget "DKExternalKeyboard" */;
+			buildPhases = (
+				AC5AFC0FB9482AE7E24791E323B8A0ED /* Headers */,
+				712CD3A71B41E02A4D775819507038C9 /* Sources */,
+				6E127AB4C8723D03A9DBA422DD26BB3A /* Frameworks */,
+				EE71D14011DA779B1F38CB434236CF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF7E039826476B7040213FB9A70424AA /* PBXTargetDependency */,
+			);
+			name = DKExternalKeyboard;
+			productName = DKExternalKeyboard;
+			productReference = B4F65AA86E5A3CFD22C6F18F4AE32127 /* DKExternalKeyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		859303741AC0BE4598B1EE82B236A009 /* DKExternalKeyboard-DKExternalKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B48283D80A080B2E5C7F395EA2B3F1 /* Build configuration list for PBXNativeTarget "DKExternalKeyboard-DKExternalKeyboard" */;
+			buildPhases = (
+				7868B7A7107F6D58259DACE139F556D9 /* Sources */,
+				72977A5A93C85AB82C3ADEEDCC3C10A3 /* Frameworks */,
+				A6E6F5AF2FACB1E28FE8CF00A8AA2651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DKExternalKeyboard-DKExternalKeyboard";
+			productName = "DKExternalKeyboard-DKExternalKeyboard";
+			productReference = AC30C4011D288D549A1D9496C6A62453 /* DKExternalKeyboard.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -371,12 +377,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1010;
-				TargetAttributes = {
-					4A21905BF31EDEE8AAC97810116223E3 = {
-						LastSwiftMigration = 1010;
-					};
-				};
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -390,8 +391,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A21905BF31EDEE8AAC97810116223E3 /* DKExternalKeyboard */,
-				353F967DAFFE4B48956CB7CEC8037075 /* DKExternalKeyboard-DKExternalKeyboard */,
+				8543B9B62E6556CCD23B18CEEDA610B9 /* DKExternalKeyboard */,
+				859303741AC0BE4598B1EE82B236A009 /* DKExternalKeyboard-DKExternalKeyboard */,
 				733ED76B5F001E7ED23589933F90E02A /* Pods-DKExternalKeyboard_Example */,
 				4DA437E7DAF0C88C9BD53A42D077C0FE /* Pods-DKExternalKeyboard_Tests */,
 			);
@@ -399,14 +400,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2FAC0A7CB0C3C113CE2B1F5A5E85A0AA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64366DCF4E35FFA066D199EEDD2AF64A /* DKExternalKeyboard.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3E347CDCE1B2C4EEB5DD93DDE453CE22 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,11 +407,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6CE69A09E8399DD80FDE91CDD93F2082 /* Resources */ = {
+		A6E6F5AF2FACB1E28FE8CF00A8AA2651 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD774B866A6D8A21D8BCF2B49EE1EAA /* DKExternalKeyboard.bundle in Resources */,
+				2A99C8DFD811737E5E823EA5B3D183AA /* DKExternalKeyboard.xib in Resources */,
+				D6FDC27F25C0888F85479747241381AF /* DKExternalKeyboardOld.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE71D14011DA779B1F38CB434236CF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE404A559B0022C3C07A1237E1FD4A87 /* DKExternalKeyboard.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,20 +450,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F179B92F7BE5D3AE875B446C8D800D91 /* Sources */ = {
+		712CD3A71B41E02A4D775819507038C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B4C542C7EEE0907CC985733FC9C7D3 /* DKExternalKeyboard-dummy.m in Sources */,
+				4FCF06B6BCF701FE7D1C32782B937A3F /* DKExternalKeyboard.swift in Sources */,
+				C1EA02A7224295C5006BBE1D /* DKExternalKeyboardContainer.swift in Sources */,
+				DB20FBB03DF6230554FC3DD97D245020 /* UIView+LoadNib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF8A1E23805A98296F6C3F01237608C2 /* Sources */ = {
+		7868B7A7107F6D58259DACE139F556D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4B81A9AE8084A0078BFA82E16C9F03 /* DKExternalKeyboard-dummy.m in Sources */,
-				DBB8618ED7A43922EB76784E022025B3 /* DKExternalKeyboard.swift in Sources */,
-				9C0EA069B4BB4D8CE11C580C28B50006 /* UIView+LoadNib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,7 +474,7 @@
 		0024BAD1C493E980E0AD8C3A8AC671FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DKExternalKeyboard;
-			target = 4A21905BF31EDEE8AAC97810116223E3 /* DKExternalKeyboard */;
+			target = 8543B9B62E6556CCD23B18CEEDA610B9 /* DKExternalKeyboard */;
 			targetProxy = 4E0F64DD456DAC779079D74A10EE1B88 /* PBXContainerItemProxy */;
 		};
 		54D63566F4D2242812F40FDC4D0C4533 /* PBXTargetDependency */ = {
@@ -480,18 +483,68 @@
 			target = 733ED76B5F001E7ED23589933F90E02A /* Pods-DKExternalKeyboard_Example */;
 			targetProxy = CF26470027C0A0E0F45B3831BE490B0D /* PBXContainerItemProxy */;
 		};
-		E214E851A56428D0BF0D16852C274D62 /* PBXTargetDependency */ = {
+		BF7E039826476B7040213FB9A70424AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "DKExternalKeyboard-DKExternalKeyboard";
-			target = 353F967DAFFE4B48956CB7CEC8037075 /* DKExternalKeyboard-DKExternalKeyboard */;
-			targetProxy = 12309BBDF2996BEEA76ADFE50C201E67 /* PBXContainerItemProxy */;
+			target = 859303741AC0BE4598B1EE82B236A009 /* DKExternalKeyboard-DKExternalKeyboard */;
+			targetProxy = 8AF9E61EE7BB5F29F952E8C07A303A69 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0008C4BA9EA359D568E648E4D87F16C9 /* Debug */ = {
+		26B287F03ACC5248985BC7C7C0DA127B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57DAB920078F691B88B24CA2141FCBF2 /* DKExternalKeyboard.xcconfig */;
+			baseConfigurationReference = 0639DA3B51AE1BDFCBE86C6C7A679515 /* Pods-DKExternalKeyboard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DKExternalKeyboard_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DKExternalKeyboard_Tests/Pods-DKExternalKeyboard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AD24060A4D350442D3482BF742BF693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6759E41B308669C8DAC6486376C17400 /* DKExternalKeyboard.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DKExternalKeyboard";
+				INFOPLIST_FILE = "Target Support Files/DKExternalKeyboard/ResourceBundle-DKExternalKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = DKExternalKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3F57348CAFD1EB76C99314AA5252EC13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6759E41B308669C8DAC6486376C17400 /* DKExternalKeyboard.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -521,103 +574,10 @@
 			};
 			name = Debug;
 		};
-		193AE96D0127B8A5B31BA93B0CF08AE9 /* Release */ = {
+		5034DF1C127B1C548880C506E8E963EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57DAB920078F691B88B24CA2141FCBF2 /* DKExternalKeyboard.xcconfig */;
+			baseConfigurationReference = 6759E41B308669C8DAC6486376C17400 /* DKExternalKeyboard.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DKExternalKeyboard";
-				INFOPLIST_FILE = "Target Support Files/DKExternalKeyboard/ResourceBundle-DKExternalKeyboard-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = DKExternalKeyboard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		3ABAEEDCAB029B8FBDBADD9CC0A18295 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57DAB920078F691B88B24CA2141FCBF2 /* DKExternalKeyboard.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DKExternalKeyboard";
-				INFOPLIST_FILE = "Target Support Files/DKExternalKeyboard/ResourceBundle-DKExternalKeyboard-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = DKExternalKeyboard;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		ABA40AA4962CEDEA629C2F0CB9EAA99F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0639DA3B51AE1BDFCBE86C6C7A679515 /* Pods-DKExternalKeyboard_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -627,19 +587,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DKExternalKeyboard_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/DKExternalKeyboard/DKExternalKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKExternalKeyboard/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DKExternalKeyboard_Tests/Pods-DKExternalKeyboard_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/DKExternalKeyboard/DKExternalKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = DKExternalKeyboard;
+				PRODUCT_NAME = DKExternalKeyboard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -647,40 +607,7 @@
 			};
 			name = Release;
 		};
-		B6327AF7F01EF8010C6400562874A188 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A31CC4685B9F72D550C082698BDDC3E5 /* Pods-DKExternalKeyboard_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DKExternalKeyboard_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DKExternalKeyboard_Tests/Pods-DKExternalKeyboard_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B637CA32E4F22F3754900B21240D7149 /* Debug */ = {
+		53012B03C7DACE3C76DA232A090F7763 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33379262D0978DF08486835C49655B95 /* Pods-DKExternalKeyboard_Example.debug.xcconfig */;
 			buildSettings = {
@@ -696,7 +623,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DKExternalKeyboard_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DKExternalKeyboard_Example/Pods-DKExternalKeyboard_Example.modulemap";
@@ -715,7 +642,7 @@
 			};
 			name = Debug;
 		};
-		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -768,7 +695,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -779,40 +706,23 @@
 			};
 			name = Debug;
 		};
-		EF701105C494331770A9906BD9020A80 /* Release */ = {
+		854C9D642637C141592ADA9450A9E2C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57DAB920078F691B88B24CA2141FCBF2 /* DKExternalKeyboard.xcconfig */;
+			baseConfigurationReference = 6759E41B308669C8DAC6486376C17400 /* DKExternalKeyboard.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DKExternalKeyboard/DKExternalKeyboard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DKExternalKeyboard/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DKExternalKeyboard";
+				INFOPLIST_FILE = "Target Support Files/DKExternalKeyboard/ResourceBundle-DKExternalKeyboard-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DKExternalKeyboard/DKExternalKeyboard.modulemap";
-				PRODUCT_MODULE_NAME = DKExternalKeyboard;
 				PRODUCT_NAME = DKExternalKeyboard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
-		F30C3F2DEFE2E1E8305056D129DDEC33 /* Release */ = {
+		A7FE4AD3C3FB5D6861B12E70786CA9ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E0B9607F1D49DACD5AC5FA29F209F1EE /* Pods-DKExternalKeyboard_Example.release.xcconfig */;
 			buildSettings = {
@@ -828,7 +738,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DKExternalKeyboard_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DKExternalKeyboard_Example/Pods-DKExternalKeyboard_Example.modulemap";
@@ -847,23 +757,106 @@
 			};
 			name = Release;
 		};
+		C237FA779FDE406340B4B3A87D29594E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A31CC4685B9F72D550C082698BDDC3E5 /* Pods-DKExternalKeyboard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DKExternalKeyboard_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DKExternalKeyboard_Tests/Pods-DKExternalKeyboard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0814FF7B8B928AC2BF63837BDD2D0F74 /* Build configuration list for PBXNativeTarget "DKExternalKeyboard-DKExternalKeyboard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3ABAEEDCAB029B8FBDBADD9CC0A18295 /* Debug */,
-				193AE96D0127B8A5B31BA93B0CF08AE9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
-				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -871,17 +864,26 @@
 		47780ECCCBBCE5901884D26A6473EE86 /* Build configuration list for PBXNativeTarget "Pods-DKExternalKeyboard_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B637CA32E4F22F3754900B21240D7149 /* Debug */,
-				F30C3F2DEFE2E1E8305056D129DDEC33 /* Release */,
+				53012B03C7DACE3C76DA232A090F7763 /* Debug */,
+				A7FE4AD3C3FB5D6861B12E70786CA9ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		921FFD31B0F8582E3A79DBB6FFFB8C92 /* Build configuration list for PBXNativeTarget "DKExternalKeyboard" */ = {
+		834B11DF21AFCD99CBDD696673A0B267 /* Build configuration list for PBXNativeTarget "DKExternalKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0008C4BA9EA359D568E648E4D87F16C9 /* Debug */,
-				EF701105C494331770A9906BD9020A80 /* Release */,
+				3F57348CAFD1EB76C99314AA5252EC13 /* Debug */,
+				5034DF1C127B1C548880C506E8E963EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B48283D80A080B2E5C7F395EA2B3F1 /* Build configuration list for PBXNativeTarget "DKExternalKeyboard-DKExternalKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				854C9D642637C141592ADA9450A9E2C2 /* Debug */,
+				3AD24060A4D350442D3482BF742BF693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -889,8 +891,8 @@
 		A937F1202D3E99A739C38A0A9492D3ED /* Build configuration list for PBXNativeTarget "Pods-DKExternalKeyboard_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6327AF7F01EF8010C6400562874A188 /* Debug */,
-				ABA40AA4962CEDEA629C2F0CB9EAA99F /* Release */,
+				C237FA779FDE406340B4B3A87D29594E /* Debug */,
+				26B287F03ACC5248985BC7C7C0DA127B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
