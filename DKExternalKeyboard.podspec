@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DKExternalKeyboard'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Keyboard for external displays.'
 
   s.description      = <<-DESC

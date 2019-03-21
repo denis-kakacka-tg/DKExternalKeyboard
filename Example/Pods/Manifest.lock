@@ -1,5 +1,5 @@
 PODS:
-  - DKExternalKeyboard (0.1.0)
+  - DKExternalKeyboard (1.0.0)
 
 DEPENDENCIES:
   - DKExternalKeyboard (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DKExternalKeyboard: dd108edb4986be8baa168724839f624a23d5eccf
+  DKExternalKeyboard: 7b10c2bf39b1824c8cfbd63958b6a7fc32151782
 
 PODFILE CHECKSUM: 39188e4c5ee593ed816a682623d64cf4af19c4c9
 
