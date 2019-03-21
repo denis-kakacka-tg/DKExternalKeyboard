@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'DKExternalKeyboard'
   s.version          = '1.0.0'
   s.summary          = 'Keyboard for external displays.'
+  s.swift_version    = '4.2'
 
   s.description      = <<-DESC
   This pod allows user to show keyboard on external displays, where system keyboard cannot be showed.
