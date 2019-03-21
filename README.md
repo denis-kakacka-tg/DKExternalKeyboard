@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-![](video1.png)
+![](video1.gif)
 
 ## Installation
 
