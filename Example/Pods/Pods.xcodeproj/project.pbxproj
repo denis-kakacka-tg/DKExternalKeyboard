@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06C7EFE0F53D6B2E8C289E1A0117209A /* KeyboardButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FE69973B98A888BD53C29B1598F0D1 /* KeyboardButtons.swift */; };
+		06C7EFE0F53D6B2E8C289E1A0117209A /* DKKeyboardButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FE69973B98A888BD53C29B1598F0D1 /* DKKeyboardButtons.swift */; };
 		1266298275F3B1A56C5622B9032D56EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		1506B8BEEDF9DC47F8115A2DA3512F7D /* DKExternalKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115E8E4E99E4C37E645D3442DB5D0B92 /* DKExternalKeyboard.swift */; };
 		1C97282E26DF9DA2335C615A07A1329F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
@@ -74,7 +74,7 @@
 		88354E92AA901AC1109781A6DEEC0591 /* DKExternalKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DKExternalKeyboard.modulemap; sourceTree = "<group>"; };
 		8E5A1B3A4F4DEB49D367458FC241BB5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97FE69973B98A888BD53C29B1598F0D1 /* KeyboardButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardButtons.swift; path = DKExternalKeyboard/Classes/KeyboardButtons.swift; sourceTree = "<group>"; };
+		97FE69973B98A888BD53C29B1598F0D1 /* DKKeyboardButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKKeyboardButtons.swift; path = DKExternalKeyboard/Classes/DKKeyboardButtons.swift; sourceTree = "<group>"; };
 		9B9EB8697F489F0082E24C47F87843C6 /* Pods-DKExternalKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKExternalKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9E4E51A7455388AD7259662C9AFE52BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20A752A75A07BF763910F663058BF97 /* Pods-DKExternalKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKExternalKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -246,7 +246,7 @@
 			children = (
 				115E8E4E99E4C37E645D3442DB5D0B92 /* DKExternalKeyboard.swift */,
 				0AE4574C020EEA73FF5D05DBA002616F /* DKExternalKeyboardView.swift */,
-				97FE69973B98A888BD53C29B1598F0D1 /* KeyboardButtons.swift */,
+				97FE69973B98A888BD53C29B1598F0D1 /* DKKeyboardButtons.swift */,
 				A9A48E13DDCA0425EAF2446C02AEE3FA /* UIColor+DK.swift */,
 				2357E0CADA76B9D3FFAA5DA417FC5838 /* UIView+Extension.swift */,
 				D5DB844C65E8C550B279F03C07429A8F /* Pod */,
@@ -454,7 +454,7 @@
 				F66A5447272B00A5C021A132CD0AF04B /* DKExternalKeyboard-dummy.m in Sources */,
 				1506B8BEEDF9DC47F8115A2DA3512F7D /* DKExternalKeyboard.swift in Sources */,
 				B6B3D50FE266C8F7C7E48C017007F2F1 /* DKExternalKeyboardView.swift in Sources */,
-				06C7EFE0F53D6B2E8C289E1A0117209A /* KeyboardButtons.swift in Sources */,
+				06C7EFE0F53D6B2E8C289E1A0117209A /* DKKeyboardButtons.swift in Sources */,
 				7814F3E73529F65F8B7A31561578E1EF /* UIColor+DK.swift in Sources */,
 				3722CB48AF6D96AB7D33122BADE89206 /* UIView+Extension.swift in Sources */,
 			);
