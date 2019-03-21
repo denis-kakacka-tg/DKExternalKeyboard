@@ -28,11 +28,7 @@ class ViewController: UIViewController {
 
 extension ViewController: DKExternalKeyboardDelegate {
     func didTapSearch(query: String?) {
-        guard let query = query else { return }
-        print(query)
-        
-        keyboardContainer.keyboard.removeFromSuperview()
-        textField.resignFirstResponder()
+        keyboardContainer.keyboard.hide()
     }
 }
 
@@ -42,8 +38,8 @@ extension ViewController: UITextFieldDelegate {
     }
     
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
-        let vieww = UIView(frame: .zero)
-        textField.inputView = vieww
+        let emptyViewForSystemKeyboard = UIView(frame: .zero)
+        textField.inputView = emptyViewForSystemKeyboard
         
         return true
     }

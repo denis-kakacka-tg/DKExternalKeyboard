@@ -28,6 +28,10 @@ import UIKit
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
+    
+    public override func awakeFromNib() {
+        setupActionButtons()
+    }
 }
 
 // MARK: - IBActions
@@ -74,14 +78,13 @@ extension DKExternalKeyboard {
     }
     
     @IBAction private func hideTapped(_ sender: UIButton) {
-        hide(from: self)
-        textField?.resignFirstResponder()
+        hide()
     }
 }
 
-// MARK: - Internal
+// MARK: - Private
 extension DKExternalKeyboard {
-    func setupActionButtons() {
+   private func setupActionButtons() {
         shiftButton.imageEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         deleteButton.imageEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         hideButton.imageEdgeInsets = UIEdgeInsets(top: 6, left: 6, bottom: 6, right: 6)
@@ -89,7 +92,7 @@ extension DKExternalKeyboard {
         hideButton.imageView?.contentMode = .scaleAspectFit
         deleteButton.imageView?.contentMode = .scaleAspectFit
         searchButton.titleLabel?.adjustsFontSizeToFitWidth = true
-        
+    
         if let imageView = deleteButton.imageView {
             imageView.transform = imageView.transform.rotated(by: CGFloat(-Double.pi / 2))
         }
@@ -109,8 +112,9 @@ extension DKExternalKeyboard {
         heightAnchor.constraint(equalToConstant: 216).isActive = true
     }
     
-    public func hide(from view: UIView) {
-        view.removeFromSuperview()
+    public func hide() {
+        self.removeFromSuperview()
+        textField?.resignFirstResponder()
     }
     
     public func setDelegate(_ delegate: DKExternalKeyboardDelegate) {

@@ -15,7 +15,6 @@ import UIKit
         super.init(frame: .zero)
         
         keyboard.frame = frame
-        keyboard.setupActionButtons()
         addSubview(keyboard)
     }
     
