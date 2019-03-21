@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DKExternalKeyboard: 158e33948d374bd238d08737d57292edbdac97ba
+  DKExternalKeyboard: dd108edb4986be8baa168724839f624a23d5eccf
 
 PODFILE CHECKSUM: 39188e4c5ee593ed816a682623d64cf4af19c4c9
 

@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'DKExternalKeyboard/Classes/**/*'
   
   s.resource_bundles = {
-      'DKExternalKeyboard' => ['DKExternalKeyboard/Assets/**/*.{xib}']
+      'DKExternalKeyboard' => ['DKExternalKeyboard/Assets/**/*.{xib,pdf,xcassets}']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

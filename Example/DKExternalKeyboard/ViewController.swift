@@ -12,8 +12,8 @@ import DKExternalKeyboard
 class ViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     
-    private lazy var keyboardContainer: DKExternalKeyboardContainer = {
-        let keyboardContainer = DKExternalKeyboardContainer()
+    private lazy var keyboardContainer: DKExternalKeyboardView = {
+        let keyboardContainer = DKExternalKeyboardView()
         keyboardContainer.keyboard.setDelegate(self)
                         
         return keyboardContainer
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: DKExternalKeyboardDelegate {
-    func didTapDone(query: String?) {
+    func didTapSearch(query: String?) {
         guard let query = query else { return }
         print(query)
         
@@ -38,7 +38,7 @@ extension ViewController: DKExternalKeyboardDelegate {
 
 extension ViewController: UITextFieldDelegate {
     func textFieldDidBeginEditing(_ textField: UITextField) {
-        keyboardContainer.keyboard.show(for: textField, on: self)
+        keyboardContainer.keyboard.show(for: textField, on: view)
     }
     
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {

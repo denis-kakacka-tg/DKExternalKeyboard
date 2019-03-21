@@ -21,7 +21,7 @@
   "source_files": "DKExternalKeyboard/Classes/**/*",
   "resource_bundles": {
     "DKExternalKeyboard": [
-      "DKExternalKeyboard/Assets/**/*.{xib}"
+      "DKExternalKeyboard/Assets/**/*.{xib,pdf,xcassets}"
     ]
   }
 }

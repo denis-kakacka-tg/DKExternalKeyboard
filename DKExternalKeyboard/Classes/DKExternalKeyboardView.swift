@@ -1,5 +1,5 @@
 //
-//  DKExternalKeyboardContainer.swift
+//  DKExternalKeyboardView.swift
 //  DKExternalKeyboard
 //
 //  Created by Denis Kakačka on 18/03/2019.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-@objcMembers public class DKExternalKeyboardContainer: UIView {
+@objcMembers public class DKExternalKeyboardView: UIView {
     public let keyboard: DKExternalKeyboard
     
     public init() {
@@ -15,6 +15,7 @@ import UIKit
         super.init(frame: .zero)
         
         keyboard.frame = frame
+        keyboard.setupActionButtons()
         addSubview(keyboard)
     }
     

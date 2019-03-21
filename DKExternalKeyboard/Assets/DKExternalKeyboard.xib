@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -12,84 +12,114 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="DKExternalKeyboard" customClass="DKExternalKeyboard" customModule="DKExternalKeyboard" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="524" height="281"/>
+            <rect key="frame" x="0.0" y="0.0" width="538" height="352"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AIT-dK-9Lj" userLabel="1st">
-                    <rect key="frame" x="0.0" y="0.0" width="524" height="56"/>
+                    <rect key="frame" x="0.0" y="0.0" width="538" height="70.5"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="zIp-yK-VfJ">
-                            <rect key="frame" x="4" y="4" width="516" height="48"/>
+                            <rect key="frame" x="4" y="4" width="530" height="62.5"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GxC-my-vo8">
-                                    <rect key="frame" x="0.0" y="0.0" width="46" height="48"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GxC-my-vo8" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="1">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="4Jt-GP-SZO"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Akg-gs-Oct">
-                                    <rect key="frame" x="52" y="0.0" width="46.5" height="48"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Akg-gs-Oct" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="53.5" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="2">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="ZWs-Ui-98j"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRK-Kl-V6B">
-                                    <rect key="frame" x="104.5" y="0.0" width="46" height="48"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tRK-Kl-V6B" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="107" y="0.0" width="48" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="3">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="Y6B-an-GpC"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efc-c7-Y4A">
-                                    <rect key="frame" x="156.5" y="0.0" width="46.5" height="48"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efc-c7-Y4A" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="161" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="4">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="2go-a9-isN"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipc-TO-P90">
-                                    <rect key="frame" x="209" y="0.0" width="46" height="48"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipc-TO-P90" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="214.5" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="5">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="bfH-QZ-IfF"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueR-iE-fJX">
-                                    <rect key="frame" x="261" y="0.0" width="46" height="48"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueR-iE-fJX" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="268" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="6">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="DTV-EU-JaO"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAH-d9-GNy">
-                                    <rect key="frame" x="313" y="0.0" width="46.5" height="48"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAH-d9-GNy" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="321.5" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="7">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="zuc-U2-org"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3I-Kl-rfG">
-                                    <rect key="frame" x="365.5" y="0.0" width="46" height="48"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3I-Kl-rfG" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="375" y="0.0" width="48" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="8">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="BX2-ZH-Bx7"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsO-H3-0n3">
-                                    <rect key="frame" x="417.5" y="0.0" width="46.5" height="48"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsO-H3-0n3" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="429" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="9">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="XZb-CF-H7z"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHC-kz-ukG">
-                                    <rect key="frame" x="470" y="0.0" width="46" height="48"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHC-kz-ukG" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="482.5" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="0">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="Pn1-ur-xU6"/>
+                                    </connections>
                                 </button>
                             </subviews>
                         </stackView>
@@ -103,80 +133,110 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9P8-rq-5sQ" userLabel="2nd">
-                    <rect key="frame" x="0.0" y="56" width="524" height="56.5"/>
+                    <rect key="frame" x="0.0" y="70.5" width="538" height="70.5"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="cKN-EO-Nyf">
-                            <rect key="frame" x="4" y="4" width="516" height="48.5"/>
+                            <rect key="frame" x="4" y="4" width="530" height="62.5"/>
                             <subviews>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCZ-29-YfB">
-                                    <rect key="frame" x="0.0" y="0.0" width="46" height="48.5"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCZ-29-YfB" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <state key="normal" title="o">
+                                    <state key="normal" title="q">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="S1C-s9-wD2"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxm-ub-zet">
-                                    <rect key="frame" x="52" y="0.0" width="46.5" height="48.5"/>
-                                    <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <state key="normal" title="i">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </state>
-                                </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlV-uM-nmW">
-                                    <rect key="frame" x="104.5" y="0.0" width="46" height="48.5"/>
-                                    <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <state key="normal" title="u">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </state>
-                                </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRR-Ab-lA1">
-                                    <rect key="frame" x="156.5" y="0.0" width="46.5" height="48.5"/>
-                                    <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <state key="normal" title="y">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </state>
-                                </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5I-rq-tRO">
-                                    <rect key="frame" x="209" y="0.0" width="46" height="48.5"/>
-                                    <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <state key="normal" title="t">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </state>
-                                </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0e0-ns-LgF">
-                                    <rect key="frame" x="261" y="0.0" width="46" height="48.5"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxm-ub-zet" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="53.5" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="w">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="eiO-bo-Z55"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PlY-Ol-4zn">
-                                    <rect key="frame" x="313" y="0.0" width="46.5" height="48.5"/>
-                                    <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <state key="normal" title="r">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </state>
-                                </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="han-Xo-R9v">
-                                    <rect key="frame" x="365.5" y="0.0" width="46" height="48.5"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlV-uM-nmW" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="107" y="0.0" width="48" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="e">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="ivH-4l-nQ4"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccP-ji-7Jf">
-                                    <rect key="frame" x="417.5" y="0.0" width="46.5" height="48.5"/>
-                                    <color key="backgroundColor" red="0.25490196078431371" green="0.25490196078431371" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <state key="normal" title="q">
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRR-Ab-lA1" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="161" y="0.0" width="47.5" height="62.5"/>
+                                    <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="r">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="zC0-Of-MVH"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GhH-S3-Xm2">
-                                    <rect key="frame" x="470" y="0.0" width="46" height="48.5"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5I-rq-tRO" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="214.5" y="0.0" width="47.5" height="62.5"/>
+                                    <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="t">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="DgW-rV-wlX"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0e0-ns-LgF" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="268" y="0.0" width="47.5" height="62.5"/>
+                                    <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="y">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="did-UI-X5o"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PlY-Ol-4zn" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="321.5" y="0.0" width="47.5" height="62.5"/>
+                                    <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="u">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="NgZ-PD-EwQ"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="han-Xo-R9v" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="375" y="0.0" width="48" height="62.5"/>
+                                    <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="i">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="APs-tL-fDx"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccP-ji-7Jf" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="429" y="0.0" width="47.5" height="62.5"/>
+                                    <color key="backgroundColor" red="0.25490196078431371" green="0.25490196078431371" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" title="o">
+                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="ofb-c7-qvD"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GhH-S3-Xm2" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="482.5" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="p">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="yMt-qd-z0f"/>
+                                    </connections>
                                 </button>
                             </subviews>
                         </stackView>
@@ -189,73 +249,100 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ukx-gF-jWe" userLabel="3rd">
-                    <rect key="frame" x="0.0" y="112.5" width="524" height="56"/>
+                    <rect key="frame" x="0.0" y="141" width="538" height="70"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="qkp-YW-tDF">
-                            <rect key="frame" x="30" y="4" width="464" height="48"/>
+                            <rect key="frame" x="31" y="4" width="476" height="62"/>
                             <subviews>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gX5-sT-hr7">
-                                    <rect key="frame" x="0.0" y="0.0" width="46.5" height="48"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gX5-sT-hr7" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="47.5" height="62"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="a">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="E16-Sj-uI8"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3E-Uv-JNA">
-                                    <rect key="frame" x="52.5" y="0.0" width="46" height="48"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3E-Uv-JNA" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="53.5" y="0.0" width="47.5" height="62"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="s">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="bg4-cb-rDz"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDV-yd-osU">
-                                    <rect key="frame" x="104.5" y="0.0" width="46" height="48"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDV-yd-osU" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="107" y="0.0" width="47.5" height="62"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="d">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="yCm-W9-yG7"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zt-Di-3QG">
-                                    <rect key="frame" x="156.5" y="0.0" width="46.5" height="48"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zt-Di-3QG" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="160.5" y="0.0" width="47.5" height="62"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="f">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="z7O-tL-ggt"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HD5-Qs-JlL">
-                                    <rect key="frame" x="209" y="0.0" width="46" height="48"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HD5-Qs-JlL" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="214" y="0.0" width="48" height="62"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="g">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="cfg-aV-MSX"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3X-Z5-MgW">
-                                    <rect key="frame" x="261" y="0.0" width="46.5" height="48"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3X-Z5-MgW" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="268" y="0.0" width="47.5" height="62"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="h">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="cDP-F2-LYs"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8j8-sU-4dy">
-                                    <rect key="frame" x="313.5" y="0.0" width="46" height="48"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8j8-sU-4dy" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="321.5" y="0.0" width="47.5" height="62"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="j">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="hwX-bj-q6r"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3k-gp-U7v">
-                                    <rect key="frame" x="365.5" y="0.0" width="46" height="48"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3k-gp-U7v" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="375" y="0.0" width="47.5" height="62"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="k">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="2XF-1V-gfs"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OH9-w6-gxB">
-                                    <rect key="frame" x="417.5" y="0.0" width="46.5" height="48"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OH9-w6-gxB" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="428.5" y="0.0" width="47.5" height="62"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="l">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="i9w-c2-bkO"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -286,76 +373,103 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="55G-wC-dMx" userLabel="4th">
-                    <rect key="frame" x="0.0" y="168.5" width="524" height="56.5"/>
+                    <rect key="frame" x="0.0" y="211" width="538" height="70.5"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="xfI-R8-CEf">
-                            <rect key="frame" x="4" y="4" width="516" height="48.5"/>
+                            <rect key="frame" x="4" y="4" width="530" height="62.5"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftf-vy-aDX">
-                                    <rect key="frame" x="0.0" y="0.0" width="69.5" height="48.5"/>
+                                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftf-vy-aDX" customClass="DKKeyboardActionButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="0.0" y="0.0" width="71.5" height="62.5"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <state key="normal" title="Shift">
+                                    <color key="tintColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" image="shift">
                                         <color key="titleColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                     <connections>
                                         <action selector="shiftTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="Gtz-0D-6dh"/>
                                     </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nRp-Eo-Tej">
-                                    <rect key="frame" x="76" y="0.0" width="46.5" height="48.5"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nRp-Eo-Tej" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="78" y="0.0" width="48" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="z">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="dR2-Nu-cFT"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxf-S6-hme">
-                                    <rect key="frame" x="129" y="0.0" width="46" height="48.5"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxf-S6-hme" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="132.5" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="x">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="eWb-2l-jde"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6L-cT-HT5">
-                                    <rect key="frame" x="182" y="0.0" width="46" height="48.5"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6L-cT-HT5" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="187" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="c">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="CpA-zd-2Rb"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJG-h5-eyj">
-                                    <rect key="frame" x="235" y="0.0" width="46" height="48.5"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJG-h5-eyj" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="241" y="0.0" width="48" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="v">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="XL4-9B-62g"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jlk-6u-aYB">
-                                    <rect key="frame" x="288" y="0.0" width="46" height="48.5"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jlk-6u-aYB" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="295.5" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="b">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="0Wl-Ug-NDN"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3S-iZ-a82">
-                                    <rect key="frame" x="341" y="0.0" width="46" height="48.5"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3S-iZ-a82" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="350" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="n">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="wtc-ng-vCS"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dms-CK-uvB">
-                                    <rect key="frame" x="394" y="0.0" width="46" height="48.5"/>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dms-CK-uvB" customClass="DKKeyboardCharacterButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="404.5" y="0.0" width="47.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal" title="m">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="keyTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="g01-4n-kkf"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7h-jm-cGS">
-                                    <rect key="frame" x="446.5" y="0.0" width="69.5" height="48.5"/>
+                                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7h-jm-cGS" customClass="DKKeyboardActionButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="458.5" y="0.0" width="71.5" height="62.5"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <state key="normal" title="Delete">
+                                    <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
+                                    <color key="tintColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" image="shift">
                                         <color key="titleColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="deleteTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="wVQ-yh-cph"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -386,38 +500,48 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GdN-wz-GZh" userLabel="5th">
-                    <rect key="frame" x="0.0" y="225" width="524" height="56"/>
+                    <rect key="frame" x="0.0" y="281.5" width="538" height="70.5"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="07t-7L-e0w">
-                            <rect key="frame" x="4" y="4" width="516" height="48"/>
+                            <rect key="frame" x="4" y="4" width="530" height="62.5"/>
                             <subviews>
                                 <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgU-cp-dCj">
-                                    <rect key="frame" x="0.0" y="0.0" width="69.5" height="48"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="71.5" height="62.5"/>
                                     <color key="backgroundColor" red="0.1058823529" green="0.1058823529" blue="0.1058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <state key="normal">
                                         <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYp-pe-TXY">
-                                    <rect key="frame" x="75.5" y="0.0" width="313" height="48"/>
-                                    <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYp-pe-TXY" customClass="DKKeyboardActionButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="77.5" y="0.0" width="321.5" height="62.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Space">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="titleColor" red="0.25490196078431371" green="0.25490196078431371" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="spaceTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="x96-xc-VhJ"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIW-0T-fDp">
-                                    <rect key="frame" x="394.5" y="0.0" width="46" height="48"/>
-                                    <color key="backgroundColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <state key="normal" title="Hide">
-                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIW-0T-fDp" customClass="DKKeyboardActionButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="405" y="0.0" width="47.5" height="62.5"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="tintColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <state key="normal" image="hide-keyboard">
+                                        <color key="titleColor" red="0.25490196078431371" green="0.25490196078431371" blue="0.10588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="hideTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="T8Z-D3-LeJ"/>
+                                    </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovk-6m-gHI">
-                                    <rect key="frame" x="446.5" y="0.0" width="69.5" height="48"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovk-6m-gHI" customClass="DKKeyboardActionButton" customModule="DKExternalKeyboard" customModuleProvider="target">
+                                    <rect key="frame" x="458.5" y="0.0" width="71.5" height="62.5"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <state key="normal" title="Search">
                                         <color key="titleColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </state>
+                                    <connections>
+                                        <action selector="doneTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="4Ou-Na-dph"/>
+                                    </connections>
                                 </button>
                             </subviews>
                             <constraints>
@@ -477,7 +601,17 @@
             <nil key="simulatedTopBarMetrics"/>
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="784.05797101449286" y="1492.2991071428571"/>
+            <connections>
+                <outlet property="deleteButton" destination="S7h-jm-cGS" id="sev-gk-AO3"/>
+                <outlet property="hideButton" destination="SIW-0T-fDp" id="GoT-Xr-dTI"/>
+                <outlet property="searchButton" destination="ovk-6m-gHI" id="OHY-1l-ewD"/>
+                <outlet property="shiftButton" destination="Ftf-vy-aDX" id="zJt-s0-XBi"/>
+            </connections>
+            <point key="canvasLocation" x="758.59375" y="1894.9218749999998"/>
         </view>
     </objects>
+    <resources>
+        <image name="hide-keyboard" width="30" height="30"/>
+        <image name="shift" width="28" height="28"/>
+    </resources>
 </document>
