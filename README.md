@@ -1,8 +1,6 @@
 # DKExternalKeyboard
 
-[![CI Status](https://img.shields.io/travis/deniskakacka/DKExternalKeyboard.svg?style=flat)](https://travis-ci.org/deniskakacka/DKExternalKeyboard)
 [![Version](https://img.shields.io/cocoapods/v/DKExternalKeyboard.svg?style=flat)](https://cocoapods.org/pods/DKExternalKeyboard)
-[![License](https://img.shields.io/cocoapods/l/DKExternalKeyboard.svg?style=flat)](https://cocoapods.org/pods/DKExternalKeyboard)
 [![Platform](https://img.shields.io/cocoapods/p/DKExternalKeyboard.svg?style=flat)](https://cocoapods.org/pods/DKExternalKeyboard)
 
 ## Example
@@ -27,18 +25,18 @@ import DKExternalKeyboard
 ```
 
 ```swift
-private lazy var keyboardContainer: DKExternalKeyboardView = {
-    let keyboardContainer = DKExternalKeyboardView()
-    keyboardContainer.keyboard.setDelegate(self)
+private lazy var keyboardView: DKExternalKeyboardView = {
+    let keyboardView = DKExternalKeyboardView()
+    keyboardView.keyboard.setDelegate(self)
 
-    return keyboardContainer
+    return keyboardView
 }()
 ```
 
 ```swift
 extension ViewController: DKExternalKeyboardDelegate {
     func didTapSearch(query: String?) {
-        keyboardContainer.keyboard.hide()
+        keyboardView.keyboard.hide()
     }
 }
 ```
@@ -46,7 +44,7 @@ extension ViewController: DKExternalKeyboardDelegate {
 ```swift
 extension ViewController: UITextFieldDelegate {
     func textFieldDidBeginEditing(_ textField: UITextField) {
-        keyboardContainer.keyboard.show(for: textField, on: view)
+        keyboardView.keyboard.show(for: textField, on: view)
     }
 
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
@@ -62,6 +60,9 @@ extension ViewController: UITextFieldDelegate {
 ## Author
 
 deniskakacka, deniskakacka@gmail.com
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
