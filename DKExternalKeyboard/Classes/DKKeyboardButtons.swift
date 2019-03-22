@@ -9,6 +9,8 @@ import Foundation
 
 class DKKeyboardCharacterButton: UIButton {
     override func awakeFromNib() {
+        super.awakeFromNib()
+        
         layer.cornerRadius = 4
         clipsToBounds = true
     }
@@ -22,6 +24,8 @@ class DKKeyboardCharacterButton: UIButton {
 
 class DKKeyboardActionButton: UIButton {
     override func awakeFromNib() {
+        super.awakeFromNib()
+        
         layer.cornerRadius = 4
         clipsToBounds = true
     }
@@ -35,9 +39,7 @@ class DKKeyboardActionButton: UIButton {
     
     override var isSelected: Bool {
         didSet {
-            backgroundColor = isSelected ? .dkLightGray : .white
             tintColor = isSelected ? .white : .dkGray
-            setTitleColor(.white, for: .selected)
         }
     }
 }

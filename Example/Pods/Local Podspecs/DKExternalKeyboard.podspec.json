@@ -2,6 +2,7 @@
   "name": "DKExternalKeyboard",
   "version": "1.0.0",
   "summary": "Keyboard for external displays.",
+  "swift_version": "4.2",
   "description": "This pod allows user to show keyboard on external displays, where system keyboard cannot be showed.",
   "homepage": "https://github.com/deniskakacka/DKExternalKeyboard",
   "license": {
